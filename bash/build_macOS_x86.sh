@@ -23,6 +23,7 @@ fi
 
 echo "build_dir:$BUILD_DIR"
 
+cp  build_macOS_x86/$BUILD_DIR/01_Intro/test/test $DEMO_DIR
 
 echo "Complete Unit Test"
 ./build_macOS_x86/macOS-release/01_Intro/test/test
